@@ -12,7 +12,7 @@ import lombok.extern.log4j.Log4j2;
 class DemoJenkinsApplicationTests {
 
 	@Test
-	contextLoads() {
+	void contextLoads() {
 		log.info("Test case executing...");
 		log.info("Images Loading...");
 		log.info("Containers Loading...");
