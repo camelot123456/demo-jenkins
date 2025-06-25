@@ -14,6 +14,7 @@ class DemoJenkinsApplicationTests {
 	@Test
 	void contextLoads() {
 		log.info("Test case executing...");
+		log.info("Images Loading...");
 		assertEquals(true, true);
 	}
 
